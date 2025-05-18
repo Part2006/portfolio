@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #0e77cc, #ddf3ca);
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        nav {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(5px);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: 0.3s ease-in-out;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        nav a:hover {
+            background: white;
+            color: #00467F;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #FFD700;
+            font-size: 24px;
+            border-bottom: 2px solid white;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        img:hover {
+            transform: scale(1.8);
+        }
+        video {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        li {
+            list-style: none;
+            font-size: 18px;
+        }
+        footer {
+            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>Parth's Portfolio</header>
+
+    <nav>
+        <a href="#personal-info">Personal Info</a>
+        <a href="#academics">Academics</a>
+        <a href="#goals">Goals</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education-training">Education & Training</a>
+    </nav>
+    <div class="container">
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <div style="display: flex; align-items: center; text-align: left; padding: 20px;">
+                <div style="flex: 1;">
+                    <p><b>Name:</b> Parth Rajaram Gathadi</p>
+                    <p><b>Date of Birth:</b> 04/09/2006</p>
+                    <p><b>Address:Dehu Phata , Alandi</b></p>
+                </div>
+                <div>
+                    <img src="parth.jpg" alt="Parth Gathadi">
+                </div>
+            </div>
+        </section>
+        <section id="academics">
+            <h2>Academics Excellence</h2>    
+            <table style="width: 100%; border-collapse: collapse; margin-top: 10px; text-align: center;">
+                <tr style="background: #079ad3; color: white;">
+                    <th style="border: 1px solid #ddd; padding: 10px;">Examination</th>
+                    <th style="border: 1px solid #ddd; padding: 10px;">Score</th>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 10px;">SSC</td>
+                    <td style="border: 1px solid #ddd; padding: 10px;">94.00%</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 10px;">HSC</td>
+                    <td style="border: 1px solid #ddd; padding: 10px;">71.50%</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 10px;">JEE Mains</td>
+                    <td style="border: 1px solid #ddd; padding: 10px;">60.7%ile</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 10px;">MHT-CET</td>
+                    <td style="border: 1px solid #ddd; padding: 10px;">94.79%ile</td>
+                </tr>
+            </table>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Check out my previous project:</p>
+            <a href="https://sahayaks.netlify.app/" target="_blank" style="color: yellow; font-size: 18px; font-weight: bold; text-decoration: none; padding: 10px 15px; background: rgba(255, 255, 255, 0.2); border-radius: 10px; display: inline-block; transition: 0.3s;">
+                View Project 🔗
+            </a>
+        </section>
+        <section id="skills">
+            <h2>Skills & Attributes</h2>
+            <p><br>✅ Programming Languages – (e.g., Python, c-language)
+                <br>✅ Web Development – (HTML)
+                <br>✅ Mobile App Development – (Flutter)</p>
+        </section>
+        <section id="educational certificate">
+            <h2>Educational certificate</h2>
+            <p>Check out my certificate</p>
+            <a href="https://drive.google.com/file/d/1oYD8l4Qsrig7OF1H2co_ZFwUZLFA_uIq/view?usp=drivesdk" target="_blank" style="color: yellow; font-size: 18px; font-weight: bold; text-decoration: none; padding: 10px 15px; background: rgba(255, 255, 255, 0.2); border-radius: 10px; display: inline-block; transition: 0.3s;">
+                View certificate 🔗
+            </a>
+        </section>
+    </div>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p><b>📞 Phone:</b> <a href="tel:+919922464353" style="color: yellow; text-decoration: none;">9922464353</a></p>
+        <p><b>✉ Email:</b> <a href="mailto:gathadiparth@gmail.com" style="color: yellow; text-decoration: none;">gathadiparth@gmail.com</a></p>
+        
+    </section>
+    <footer>
+        © 2025 Parth Gathadi | All Rights Reserved
+    </footer>
+</body>
+</html>
